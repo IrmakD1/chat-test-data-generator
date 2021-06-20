@@ -4,8 +4,18 @@
   "description": "Test data for chat UI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "author": "Dylan Irmak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.14",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
 }
