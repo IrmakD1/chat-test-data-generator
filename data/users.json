@@ -1,0 +1,46 @@
+[
+    {
+        "userName": "JohnnyAllAmerican",
+        "name": "Johnny",
+        "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+        "contacts": [
+            "29c05b2e-cda3-4beb-aec9-7530de6178d4",
+            "a91730b0-98e0-4dd8-a66c-8ddada7523dc",
+            "db8e90a7-d632-4f63-ba3e-a5cedc0c855e"
+        ]
+    },
+    {
+        "userName": "Good_Guy_Mark",
+        "name": "Mark",
+        "userId": "29c05b2e-cda3-4beb-aec9-7530de6178d4",
+        "contacts": [
+            "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+            "a91730b0-98e0-4dd8-a66c-8ddada7523dc",
+            "db8e90a7-d632-4f63-ba3e-a5cedc0c855e"
+        ]  
+    },
+    {
+        "userName": "Scotchka.Lover11",
+        "name": "Lisa",
+        "userId": "a91730b0-98e0-4dd8-a66c-8ddada7523dc",
+        "contacts": [
+            "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+            "29c05b2e-cda3-4beb-aec9-7530de6178d4"
+        ]
+    },
+    {
+        "userName": "I_Like_2_Watch",
+        "name": "Denny",
+        "userId": "db8e90a7-d632-4f63-ba3e-a5cedc0c855e",
+        "contacts": [
+            "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+            "0d5ec4a4-d076-45e8-96df-a95b240d1057"
+        ]
+    },
+    {
+        "userName": "Chris_R",
+        "name": "Chris R",
+        "userId": "0d5ec4a4-d076-45e8-96df-a95b240d1057",
+        "contacts": ["db8e90a7-d632-4f63-ba3e-a5cedc0c855e"]
+    }
+]

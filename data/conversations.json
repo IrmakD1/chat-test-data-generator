@@ -1,0 +1,45 @@
+[
+    {
+        "participants": [
+            "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+            "29c05b2e-cda3-4beb-aec9-7530de6178d4"
+        ],
+        "utterances": [
+            {
+                "timestamp": "2021-02-23T12:00",
+                "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+                "text": "I did not hit her!"
+            },
+            {
+                "timestamp": "2021-02-23T12:01",
+                "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+                "text": "It's not true"
+            },
+            {
+                "timestamp": "2021-02-23T12:02",
+                "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+                "text": "It's bullshit! I did not hit her"
+            },
+            {
+                "timestamp": "2021-02-23T12:03",
+                "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+                "text": "I did *not*."
+            },
+            {
+                "timestamp": "2021-02-23T12:04",
+                "userId": "4844f9cd-897c-444a-9ca8-7dd057d4a906",
+                "text": "Oh hi Mark"
+            },
+            {
+                "timestamp": "2021-02-23T12:05",
+                "userId": "29c05b2e-cda3-4beb-aec9-7530de6178d4",
+                "text": "I used to know a girl; she had a dozen guys. One of them found out about it... beat her up so bad she ended up at a hospital on Guerrero Street."
+            },
+            {
+                "timestamp": "2021-02-23T12:06",
+                "userId": "29c05b2e-cda3-4beb-aec9-7530de6178d4",
+                "text": "Hahaha what a story Mark!"
+            }
+        ]
+    }
+]
