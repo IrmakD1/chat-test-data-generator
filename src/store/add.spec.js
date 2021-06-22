@@ -1,22 +1,22 @@
 const addInitialData = require('./add');
-const { Institute, Submission } = require('./mongo');
+const { User, Conversation } = require('./mongo');
 
 jest.mock('./mongo', () => ({
-  Institute: {
+  User: {
     insertMany: jest.fn(),
   },
-  Submission: {
+  Conversation: {
     insertMany: jest.fn(),
   },
 }));
 
 describe('addInitialData function', () => {
-  test('successfully inserts institute documents', async () => {
+  test('successfully inserts User documents', async () => {
     await addInitialData();
-    expect(Institute.insertMany).toHaveBeenCalled();
+    expect(User.insertMany).toHaveBeenCalled();
   });
   test('error message is triggered if unsuccesful', async () => {
-    Institute.insertMany.mockImplementationOnce(() =>
+    User.insertMany.mockImplementationOnce(() =>
       Promise.reject(Error('blah'))
     );
     try {
@@ -25,12 +25,12 @@ describe('addInitialData function', () => {
       expect(err).toEqual(Error('blah'));
     }
   });
-  test('successfully inserts Submission documents', async () => {
+  test('successfully inserts Conversation documents', async () => {
     await addInitialData();
-    expect(Submission.insertMany).toHaveBeenCalled();
+    expect(Conversation.insertMany).toHaveBeenCalled();
   });
   test('error message is triggered if unsuccesful', async () => {
-    Submission.insertMany.mockImplementationOnce(() =>
+    Conversation.insertMany.mockImplementationOnce(() =>
       Promise.reject(Error('blah'))
     );
     try {
