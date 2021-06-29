@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { USer, COnversation } = require('./mongo');
+const { User, Conversation } = require('./mongo');
 
 jest.mock('mongoose', () => ({
   connect: jest.fn(() => ({ catch: jest.fn() })),
